@@ -1,16 +1,11 @@
-//
-//  CSCaptureTests.m
-//  CSCaptureTests
-//
-//  Created by Cameron Lowell Palmer on 02/09/2020.
-//  Copyright © 2020 Cameron Lowell Palmer. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
-@interface CSCaptureTests : XCTestCase
 
+
+@interface CSCaptureTests : XCTestCase
 @end
+
+
 
 @implementation CSCaptureTests
 

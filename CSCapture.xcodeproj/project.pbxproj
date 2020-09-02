@@ -10,6 +10,7 @@
 		C7F3DB8B24FF732A0080BE1A /* CSCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F3DB8124FF732A0080BE1A /* CSCapture.framework */; };
 		C7F3DB9024FF732A0080BE1A /* CSCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3DB8F24FF732A0080BE1A /* CSCaptureTests.m */; };
 		C7F3DB9224FF732A0080BE1A /* CSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F3DB8424FF732A0080BE1A /* CSCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F3DB9C24FF735B0080BE1A /* CSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3DB9B24FF735B0080BE1A /* CSCapture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		C7F3DB8A24FF732A0080BE1A /* CSCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F3DB8F24FF732A0080BE1A /* CSCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCaptureTests.m; sourceTree = "<group>"; };
 		C7F3DB9124FF732A0080BE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F3DB9B24FF735B0080BE1A /* CSCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCapture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				C7F3DB8424FF732A0080BE1A /* CSCapture.h */,
+				C7F3DB9B24FF735B0080BE1A /* CSCapture.m */,
 				C7F3DB8524FF732A0080BE1A /* Info.plist */,
 			);
 			path = CSCapture;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F3DB9C24FF735B0080BE1A /* CSCapture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
